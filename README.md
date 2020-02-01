@@ -1,6 +1,6 @@
 # docker-cron
 
-This is a image to run cronjobs inside a docker container. The image has nothing installed. So this is more a base image.
+This is a image to run cronjobs inside a docker container. The image has nothing installed. So this is a pure base image.
 
 # usage
 
