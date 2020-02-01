@@ -1,0 +1,2 @@
+## Every minute print the date
+* * * * * date

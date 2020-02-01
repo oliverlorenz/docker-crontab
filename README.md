@@ -1,0 +1,22 @@
+# docker-cron
+
+This is a image to run cronjobs inside a docker container. The image has nothing installed. So this is more a base image.
+
+# usage
+
+* create a crontab file. for example:
+
+  ```
+  ## Every minute print the date
+  * * * * * rsync /a/local/file user@host:/a/remote/location
+  ```
+
+* create a new Dockerfile
+
+  ```
+  FROM oliverlorenz/cron:alpine
+  RUN apk add --no-cache rsync
+  ADD crontab /crontab
+  ```
+
+* build and use
