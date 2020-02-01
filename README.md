@@ -1,5 +1,5 @@
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/oliverlorenz/crontab) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/oliverlorenz/crontab)
-# docker-cron
+# docker-crontab
 
 This is a image to run cronjobs inside a docker container. The image has nothing installed. So this is a pure base image.
 
